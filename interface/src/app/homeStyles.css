@@ -1,0 +1,29 @@
+/* homeStyles.css */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    /* align-items: center;  Vertical centering */
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 2px solid;
+  }
+  
+  .image {
+    width: 35%;
+    height: auto;
+  }
+  
+  .content {
+    width: 65%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left; 
+  }
+
+  .Buttons{
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  
