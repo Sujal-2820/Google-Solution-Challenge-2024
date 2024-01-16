@@ -61,3 +61,30 @@ export const items = [
       image: "https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=600",
     }
 ]
+
+export const navlinkshome = [
+    {
+      link:"",
+      name:"Home"
+    },
+    {
+      link:"",
+      name:"Courses"
+    },
+    {
+      link:"",
+      name:"Applications"
+    },
+    {
+      link:"",
+      name:"Community"
+    },
+    {
+      link:"",
+      name:"Notifications"
+    },
+    {
+      link:"",
+      name:"Profile"
+    },
+]
