@@ -60,7 +60,91 @@ export const items = [
       description: "Craft compelling and engaging content for our audience as a Content Writer.",
       image: "https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=600",
     }
-]
+];
+
+export const companies = [
+  {
+    id: 11,
+    name: "Tech Innovators",
+    courses: [
+      "Web Development",
+      "Data Science Fundamentals",
+      "Mobile App Development",
+    ],
+  },
+  {
+    id: 12,
+    name: "Digital Solutions",
+    courses: [
+      "UX/UI Design",
+      "Digital Marketing Strategies",
+    ],
+  },
+  {
+    id: 13,
+    name: "Data Wizards",
+    courses: [
+      "Machine Learning Fundamentals",
+      "Big Data Analytics",
+      "Database Management",
+    ],
+  },
+  {
+    id: 14,
+    name: "Marketing Masters",
+    courses: [
+      "Social Media Marketing",
+      "Content Creation Workshop",
+    ],
+  },
+  {
+    id: 15,
+    name: "Tech Explorers",
+    courses: [
+      "IoT Development",
+      "Artificial Intelligence in Practice",
+    ],
+  },
+  {
+    id: 16,
+    name: "CodeCrafters",
+    courses: [
+      "Advanced Algorithms",
+    ],
+  },
+  {
+    id: 17,
+    name: "InnovateTech",
+    courses: [
+      "Innovation in Technology",
+      "Cybersecurity Essentials",
+      "Frontend Development Mastery",
+    ],
+  },
+  {
+    id: 18,
+    name: "EcoTech Solutions",
+    courses: [
+      "Green Technology Initiatives",
+    ],
+  },
+  {
+    id: 19,
+    name: "HealthTech Innovations",
+    courses: [
+      "Digital Health Trends",
+      "Medical Software Development",
+    ],
+  },
+  {
+    id: 20,
+    name: "FinanceTech Hub",
+    courses: [
+      "Fintech Fundamentals",
+      "Blockchain in Finance",
+    ],
+  },
+];
 
 export const navlinkshome = [
     {
@@ -84,7 +168,9 @@ export const navlinkshome = [
       name:"Notifications"
     },
     {
-      link:"",
+      link:"/profile",
       name:"Profile"
     },
 ]
+
+
