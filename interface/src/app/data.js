@@ -148,23 +148,23 @@ export const companies = [
 
 export const navlinkshome = [
     {
-      link:"",
+      link:"/",
       name:"Home"
     },
     {
-      link:"",
+      link:"/courses",
       name:"Courses"
     },
     {
-      link:"",
+      link:"/applications",
       name:"Applications"
     },
     {
-      link:"",
+      link:"/community",
       name:"Community"
     },
     {
-      link:"",
+      link:"/notification",
       name:"Notifications"
     },
     {

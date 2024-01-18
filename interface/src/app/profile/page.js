@@ -22,6 +22,8 @@ import {
 } from "@chakra-ui/react";
 import { items } from "../data";
 import { navlinkshome } from "../data";
+import { useRouter } from "next/navigation";
+import NavBar from "@/components/NavBar";
 
 const navLink = [
   {
@@ -39,6 +41,10 @@ const navLink = [
 ];
 
 export default function Home() {
+  const router = useRouter();
+  const active = router.query;
+  console.log (active);
+
   return (
     <Grid
       h="auto"
@@ -53,27 +59,7 @@ export default function Home() {
         flexDirection="column"
         alignItems="center"
       >
-        <Image
-          objectFit="cover"
-          borderRadius="full"
-          boxSize="150px"
-          src="https://i.pinimg.com/564x/49/6b/c9/496bc9401902c64c7ee7afced3c1bf1e.jpg"
-          alt="pp"
-        />
-        {navlinkshome.map((item) => (
-          <Container key={item.id} textAlign="center" my={2}>
-            <Button colorScheme="teal" variant="ghost">
-              {item.name}
-            </Button>
-          </Container>
-        ))}
-        <Wrap>
-          <WrapItem>
-            <Button colorScheme="twitter" width="150px" my="30px">
-              Post
-            </Button>
-          </WrapItem>
-        </Wrap>
+        <NavBar/>
       </GridItem>
       <Divider orientation="vertical" />
       <GridItem colSpan={2}>

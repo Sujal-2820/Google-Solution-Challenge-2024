@@ -24,6 +24,7 @@ import {
 import { BiLike, BiChat, BiShare } from "react-icons/bi";
 import { companies, items, navlinkshome } from "../data";
 import "./courses.css";
+import NavBar from "@/components/NavBar";
 
 export default function Courses() {
   return (
@@ -41,27 +42,7 @@ export default function Courses() {
           flexDirection="column"
           alignItems="center"
         >
-          <Image
-            objectFit="cover"
-            borderRadius="full"
-            boxSize="150px"
-            src="https://i.pinimg.com/564x/49/6b/c9/496bc9401902c64c7ee7afced3c1bf1e.jpg"
-            alt="pp"
-          />
-          {navlinkshome.map((item) => (
-            <Container key={item.id} textAlign="center" my={2}>
-              <Button colorScheme="teal" variant="ghost">
-                {item.name}
-              </Button>
-            </Container>
-          ))}
-          <Wrap>
-            <WrapItem>
-              <Button colorScheme="twitter" width="150px" my="30px">
-                Post
-              </Button>
-            </WrapItem>
-          </Wrap>
+          <NavBar/>
         </GridItem>
         <Divider orientation="vertical" />
 
